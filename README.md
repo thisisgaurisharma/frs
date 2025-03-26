@@ -1,2 +1,3 @@
-# frs
-Face and Feature Detection (Emotion, Ethnicity)
+# **Real-Time Face Recognition System (FRS)**  
+
+This repository contains a **Real-Time Face Recognition System (FRS)** designed for **heavily populated areas** such as railway stations and stands. The system is optimized for **CPU-only processing**, ensuring **fast, lightweight, and accurate** face detection and recognition. It utilizes **SCRFD-10G** for high-precision **face and landmark detection**, while **MTCNN** is used for **emotion and ethnicity detection**. **DeepFace and FAISS** are employed for efficient **face recognition**, classifying individuals as "known" or "unknown." The model supports real-time inference on various input sources, including **webcams, MP4 videos, RTSP streams, and `.ts` video files**. With ONNX runtime optimization and FAISS integration, this system delivers **high-speed and accurate results** suitable for real-world large-scale applications.
